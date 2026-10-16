@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1, 
+    "fecha": "2026-10-15 08:30:00", 
+    "magnitud": 5.2, 
+    "latitud": 16.8531, 
+    "longitud": -99.8237, 
+    "profundidad": 15.0, 
+    "referencia": "Acapulco, Guerrero"
+  },
+  {
+    "id": 2, 
+    "fecha": "2026-10-14 14:20:00", 
+    "magnitud": 4.1, 
+    "latitud": 16.1234, 
+    "longitud": -95.2345, 
+    "profundidad": 10.0, 
+    "referencia": "Salina Cruz, Oaxaca"
+  },
+  {
+    "id": 3, 
+    "fecha": "2026-10-13 22:15:00", 
+    "magnitud": 6.0, 
+    "latitud": 18.1567, 
+    "longitud": -102.1234, 
+    "profundidad": 20.0, 
+    "referencia": "Coalcomán, Michoacán"
+  },
+  {
+    "id": 4, 
+    "fecha": "2026-10-12 05:40:00", 
+    "magnitud": 3.8, 
+    "latitud": 19.4326, 
+    "longitud": -99.1332, 
+    "profundidad": 5.0, 
+    "referencia": "Ciudad de México"
+  }
+]
