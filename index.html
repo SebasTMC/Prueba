@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Datos Sísmicos</title>
+    <!-- Hoja de estilos local -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Hoja de estilos del mapa (Leaflet) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Sistema de Visualización de Datos Sísmicos</h1>
+    </header>
+    
+    <main>
+        <!-- Contenedor del mapa interactivo -->
+        <div id="mapa"></div>
+        
+        <!-- Contenedor de la lista de sismos -->
+        <div id="lista-sismos">
+            <h2>Registros Recientes</h2>
+            <ul id="sismos-ul">
+                <!-- Aquí se inyectarán los datos mediante JavaScript -->
+            </ul>
+        </div>
+    </main>
+
+    <!-- Script del mapa (Leaflet) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Script local -->
+    <script src="./app.js"></script>
+</body>
+</html>
